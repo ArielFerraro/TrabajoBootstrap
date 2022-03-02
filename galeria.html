@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid fondo_negro">
         <div class="row">
             <div class="col-md-12 bg-warning border border-dark">
                 <ul class="nav">
@@ -27,16 +27,60 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="#" >ENTRADAS</a>
                     </li>
-                    </ul>
+                </ul>
             </div>
         </div>
-        <div class="container">
+    </div>
+    <div class="container-fluid fondo_negro">
+        <div class="container fondo_container">
             <div class="row">
-                <div class="col-md-12 bg-warning">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imagen/fitopaez.jpeg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagen/fitopaezzzzz.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagen/fitopaez4.jfif" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 
+            </div>
+            <div class="row">
+                <div class="col-6 pt-5 fs-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt aspernatur dolorum deleniti, quibusdam sed beatae neque incidunt, labore veritatis, est corporis assumenda quas fuga excepturi in delectus. Recusandae, quaerat?</p>
                 </div>
+                <div class="col-6 pt-5 fs-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sunt aspernatur dolorum deleniti, quibusdam sed beatae neque incidunt, labore veritatis, est corporis assumenda quas fuga excepturi in delectus. Recusandae, quaerat?</p>
             </div>
         </div>
+        <div class="row">
+            <footer class="bg-warning border border-dark">
+                <ul class="nav justify-content-center  border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="https://www.facebook.com/fitopaez" class="nav-link px-2 text-muted">FACEBOOK</a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/fitopaezmusica/" class="nav-link px-2 text-muted">INSTAGRAM</a></li>
+                    <li class="nav-item"><a href="https://www.youtube.com/channel/UCnlr4LDiHnZCazpfuCT1czg" class="nav-link px-2 text-muted">YOUTUBE</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
 
 
 
